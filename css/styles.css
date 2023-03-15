@@ -7,6 +7,10 @@
     </div>
 </div> */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Parisienne&family=Roboto+Serif:opsz@8..144&display=swap');
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
 body {
     font-family: "Montserrat";
 }
@@ -22,9 +26,22 @@ padding: 3% 15%;
 
 h1 {
 font-family: "Montserrat-Black";  
-font-size: 3rem;  
-line-height: 1.5;  
-font-weight: 900;
+font-size: 3.5rem;  
+line-height: 1.5;
+}
+
+h2 {
+font-family: "Montserrat-Bold";
+font-size: 3rem;
+line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #afafaf;
 }
 
 /* Navigation Bar */
@@ -52,4 +69,50 @@ font-family: "Montserrat-Light";
 
 .download-button{
     margin: 5% 3% 5% 0;
+}
+
+.title-image {
+width: 60%;
+transform: 25%;
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+text-align: center;
+padding: 5%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+width: 10%;
+border-radius: 10%;
+margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+background-color: #ef8172;
+text-align: center;
+padding-bottom: 3%;
+}
+
+.press-logo {
+width: 15%;
+margin: 20px 20px 50px;
 }
